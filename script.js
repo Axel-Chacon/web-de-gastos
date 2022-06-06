@@ -10,7 +10,7 @@
         distribute(name,money,cont);
 
         let nameToShow = `<h6> ${name}: </h6>`
-        let moneyToShow = `<h6> $  ${money} </h6>`
+        let moneyToShow = `<h6>   $${money} </h6>`
 
         $("#historyName").append(nameToShow);
         $("#historyMoney").append(moneyToShow);
